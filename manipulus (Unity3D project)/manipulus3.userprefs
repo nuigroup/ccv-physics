@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ctype="Workspace" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\mtPHYS\Contour\mtCntrManager.cs" ctype="Workbench">
+    <Files>
+      <File FileName="Assets\Scripts\mtPHYS\mtContourMesh.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\mtPHYS\Contour\mtCntrManager.cs" Line="43" Column="27" />
+      <File FileName="Assets\Scripts\IBHE\ibheMeshGenerator.cs" Line="59" Column="20" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches ctype="PinnedWatchStore" />
+</Properties>

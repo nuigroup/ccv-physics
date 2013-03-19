@@ -1,0 +1,35 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ctype="Workspace" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\userstudy\levelLoadTrigger.cs" ctype="Workbench">
+    <Files>
+      <File FileName="Assets\Scripts\userstudy\levelLoadTrigger.cs" Line="12" Column="4" />
+      <File FileName="Assets\Scripts\userstudy\resetPosition.cs" Line="24" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="manipulus3_scaled" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="IBHE" expanded="True">
+                  <Node name="Mesh" expanded="True" />
+                </Node>
+                <Node name="mtPHYS" expanded="True">
+                  <Node name="Contour" expanded="True" />
+                  <Node name="Particles" expanded="True" />
+                </Node>
+                <Node name="userstudy" expanded="True">
+                  <Node name="levelLoadTrigger.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches ctype="PinnedWatchStore" />
+</Properties>

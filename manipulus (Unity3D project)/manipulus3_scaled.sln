@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+
+Project("{7C364501-F014-6EAC-C6D4-1927630DE631}") = "manipulus3_scaled", "manipulus3_scaled.csproj", "{D95044F2-5907-405C-2FF7-8E4E362E474B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D95044F2-5907-405C-2FF7-8E4E362E474B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D95044F2-5907-405C-2FF7-8E4E362E474B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D95044F2-5907-405C-2FF7-8E4E362E474B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D95044F2-5907-405C-2FF7-8E4E362E474B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal

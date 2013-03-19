@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>9.0.21022</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{58324630-D5B7-B0C8-BD3A-67678C9E5D74}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace>Irrelevant</RootNamespace>
+	<AssemblyName>Irrelvant</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_1_0;UNITY_3_1;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/unity3/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/unity3/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+	<Reference Include="Boo.Lang">
+	  <HintPath>C:/Program Files (x86)/unity3/Editor/Data/Mono/lib/mono/unity/Boo.Lang.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityScript">
+	  <HintPath>C:/Program Files (x86)/unity3/Editor/Data/Mono/lib/mono/unity/UnityScript.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\IBHE\ibheConnector.cs" />
+     <Compile Include="Assets\Scripts\IBHE\ibheMeshGenerator.cs" />
+     <Compile Include="Assets\Scripts\IBHE\ibheProxyObjects.cs" />
+     <None Include="Assets\Scripts\IBHE\mouseMove.js" />
+     <Compile Include="Assets\Scripts\misc\HUDFPS.cs" />
+     <Compile Include="Assets\Scripts\misc\Matrix.cs" />
+     <Compile Include="Assets\Scripts\misc\moveMeBack.cs" />
+     <Compile Include="Assets\Scripts\mtPHYS\Basic\mtConnector.cs" />
+     <Compile Include="Assets\Scripts\mtPHYS\Basic\mtEvent.cs" />
+     <Compile Include="Assets\Scripts\mtPHYS\Basic\mtManager.cs" />
+     <Compile Include="Assets\Scripts\mtPHYS\Contour\mtCntrConnector.cs" />
+     <Compile Include="Assets\Scripts\mtPHYS\Contour\mtCntrEvent.cs" />
+     <Compile Include="Assets\Scripts\mtPHYS\Contour\mtCntrManager.cs" />
+     <Compile Include="Assets\Scripts\mtPHYS\mtContourMesh.cs" />
+     <Compile Include="Assets\Scripts\mtPHYS\mtObject.cs" />
+     <Compile Include="Assets\Scripts\mtPHYS\mtSimpleProxy.cs" />
+     <Compile Include="Assets\Scripts\OSC.NET\OSCBundle.cs" />
+     <Compile Include="Assets\Scripts\OSC.NET\OSCMessage.cs" />
+     <Compile Include="Assets\Scripts\OSC.NET\OSCPacket.cs" />
+     <Compile Include="Assets\Scripts\OSC.NET\OSCReceiver.cs" />
+     <Compile Include="Assets\Scripts\OSC.NET\OSCTransmitter.cs" />
+     <Compile Include="Assets\Scripts\raCom\raComClient.cs" />
+     <Compile Include="Assets\Scripts\TUIO\TuioClient.cs" />
+     <Compile Include="Assets\Scripts\TUIO\TuioContainer.cs" />
+     <Compile Include="Assets\Scripts\TUIO\TuioCursor.cs" />
+     <Compile Include="Assets\Scripts\TUIO\TuioListener.cs" />
+     <Compile Include="Assets\Scripts\TUIO\TuioObject.cs" />
+     <Compile Include="Assets\Scripts\TUIO\TuioPoint.cs" />
+     <Compile Include="Assets\Scripts\TUIO\TuioTime.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
+	
