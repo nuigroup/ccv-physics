@@ -11,3 +11,9 @@
 *.lai
 *.la
 *.a
+
+# OS X specific files
+.DS_Store
+
+# Emacs buffers
+*~
